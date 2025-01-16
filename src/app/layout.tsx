@@ -9,17 +9,16 @@ import { classNames } from '@/utils/classNames'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const metaDescription = 'Generate this using ChatGPT'
-const titleAndDefault = 'Generate this using ChatGPT'
-const appUrl = 'https://my-app-name.rb2.fr'
+const metaDescription =
+  'Manage your time efficiently with a simple timer app. Track and review past sessions easily with a built-in history log'
+const titleAndDefault = 'Timer app with history tracker'
+const appUrl = 'https://timer.rb2.fr'
 
 export const metadata: Metadata = {
-  title: {
-    template: titleAndDefault,
-    default: titleAndDefault,
-  },
+  title: titleAndDefault,
   description: metaDescription,
-  keywords: 'Generate this using ChatGPT',
+  keywords:
+    'timer app, history tracker, time management, timer with history, productivity tool, session tracker, stopwatch app, track time, timer log, efficient time tracking',
   metadataBase: new URL(appUrl),
   openGraph: {
     title: titleAndDefault,
@@ -47,7 +46,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_URL!}`,
+    canonical: appUrl,
   },
 }
 

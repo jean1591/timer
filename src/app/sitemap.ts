@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 
-const baseUrl = 'https://jeanrobertou.com'
+const baseUrl = 'https://timer.rb2.fr'
 const changeFrequency = 'monthly'
 
 export default function sitemap(): MetadataRoute.Sitemap {
